@@ -1,5 +1,5 @@
 onload = () =>{
         document.body.classList.remove("container");
-        audioElement.play();
+        document.querySelector("audio").muted = false;
 };
 // set up text to print, each item in array is new line
